@@ -68,6 +68,11 @@ ul{
     text-transform: uppercase;
     margin-bottom: 20px ;
 }
+#about .heading h3{
+    color: white;
+    font-size: 10px;
+    margin-bottom: 20px ;
+}
 .button1{
     font-weight: bold;
     transition: all 0.3s ease-in 0s;
