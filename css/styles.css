@@ -22,7 +22,7 @@ section .heading h2{
 .divider{
     width: 100px;
     height: 2px;
-    background-color:brown;
+    background-color:#263547;
     margin: 0 auto 20px;
 }
 .divider.white{
@@ -34,7 +34,7 @@ ul{
 
 /* NAVBAR */
 .navbar{
-    background-color: brown;
+    background-color: #263547;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
@@ -51,13 +51,13 @@ ul{
 .nav-link.active,
 .nav-link:hover{
     background-color: white;
-    color: brown !important;
+    color: #263547 !important;
     transition: all 0.3s ease-in 0s;
 }
 
 /* ABOUT */
 #about{
-    background-color:brown
+    background-color:#263547
 }
 .profile-picture{
     text-align: center;
@@ -70,8 +70,15 @@ ul{
 }
 #about .heading h3{
     color: white;
-    font-size: 10px;
-    margin-bottom: 20px ;
+    font-size: 20px;
+    font-weight: lighter;
+}
+#about .heading h4{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .button1{
     font-weight: bold;
@@ -82,7 +89,7 @@ ul{
 
 /* SKILLS */
 #skills .heading h2{
-    color:brown ;
+    color:#263547;
 }
 #skills .progress{
     height:45px ;
@@ -92,7 +99,7 @@ ul{
     margin-bottom: 0px;
 }
 #skills .progress-bar{
-    background-color: brown;
+    background-color:#263547;
 }
 #skills .progress-bar h5{
     text-shadow: 1px 1px 1px #000;
@@ -101,7 +108,7 @@ ul{
 
 /* EXPERIENCE */
 #experience {
-    background-color: brown;
+    background-color: #263547;
 }
 #experience .heading h2{
     color: white;
@@ -134,7 +141,7 @@ ul{
     clear: both;
 }
 .timeline li .timeline-badge {
-    color: brown;
+    color: #263547;
     width: 50px;
     line-height: 50px;
     font-size: 20px;
@@ -191,12 +198,12 @@ ul{
     font-size: 20px;
 }
 .timeline-heading h4{
-    color: brown;
+    color: #263547;
 }
 
 /* FORMATION */
 #formation .heading h2{
-    color: brown;
+    color: #263547;
     margin: 15px 0px;
 }
 .formation-block{
@@ -218,17 +225,20 @@ ul{
     font-size: 35px;
 }
 .formation-block h3{
-    color: brown;
+    color: #263547;
     margin: 15px 0px;
 }
 .education-block h4{
     margin-bottom: 20px;
     font-weight: normal;
 }
+.button2{
+    margin: 5px;
+}
 
 /* PORTFOLIO */
 #portfolio{
-    background-color: brown;
+    background-color:#263547;
 }
 #portfolio .heading h2{
     color: white;
@@ -248,15 +258,20 @@ ul{
 }
 
 /* RECOMMENDATIONS */
-#recommendations .heading h2{
-    color: brown;
+#Apropos .heading h2{
+    color: #263547;
 }
-#recommendations .carousel-item{
-    padding: 30px 30px 90px;
+#Apropos .carousel-item{
+    padding: 0px 30px 90px;
 }
-#recommendations .carousel-item h3{
-    color: brown;
+#Apropos .carousel-item h3{
+    color: #263547;
     font-style: italic;
+    margin-bottom: 40px;
+}
+#Apropos .carousel-item h4{
+    color: #263547;
+    font-size: medium;
 }
 
 /* FOOTER */
@@ -265,7 +280,7 @@ footer {
     padding: 20px 0 40px;
 }
 footer span {
-    color: brown;
+    color: white;
     font-size: 25px;
     line-height: 35px;
 }
