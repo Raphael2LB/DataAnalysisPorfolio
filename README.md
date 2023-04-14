@@ -1,4 +1,4 @@
-# DataAnalysisPorfolio
+# DataAnalysisPortfolio
 
 Bonjour et bienvenue sur mon portfolio !
 
