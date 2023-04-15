@@ -252,6 +252,7 @@ ul{
 #portfolio img:hover{
     filter: none;
     -webkit-filter:none;
+    transition: all 0.3s ease-in 0s
 }
 #portfolio .col-md-4{
     margin-bottom: 20px;
