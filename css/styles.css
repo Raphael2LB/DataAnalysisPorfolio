@@ -267,7 +267,7 @@ ul{
 /* The overlay effect - lays on top of the container and over the image */
 #portfolio .overlay {
     position:absolute;
-    bottom: 10;
+    bottom: 0;
     background: #263547(0, 0, 0);
     background: #263547(0, 0, 0, 0.5); /* Black see-through */
     color: #f1f1f1;
