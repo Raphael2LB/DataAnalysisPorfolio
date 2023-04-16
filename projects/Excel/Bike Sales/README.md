@@ -1,12 +1,17 @@
-Voici une courte introduction au projet Bike Sales mené entièrement sur Excel. 
+Here is a short introduction to the Bike Sales project conducted entirely in Excel.
 
-Afin de consulter le dashboard final je vous invite à vous rendre sur le fichier "Bike_Sales.xlsx" présent dans ce dossier. 
+The final deliverable consists of a one-page dashboard as below:
 
-Le livrable final consiste en un dashboard d'une page tel que ci-dessous : 
+In order to consult my work file, I invite you to go to the "Bike_Sales.xlsx" file present in this folder.
 
 ![image](https://user-images.githubusercontent.com/130085381/232311301-bc900341-d7a8-4a40-9e88-e5e4eb0ddae0.png)
 
-1/ Objectif : 
+1/ DATA : 
+
+The data used comes from https://github.com/AlexTheAnalyst/Excel-Tutorial/blob/main/Excel%20Project%20Dataset.xlsx
+This is information pertaining to bike buyers from all over the world. 
+
+2/ OBJECTIVES : 
 
 This dashboard is intended for decision-makers in the bicycle sales business. 
 
@@ -18,7 +23,7 @@ It was chosen to highlight three visuals:
 
 Segments have been arranged in such a way as to respond more precisely to the questions of decision-makers. 
 
-3/ Some conclusions : 
+3/ SOME CONCLUSIONS : 
 
 -The higher the income of individuals, the more bicycles they buy. 
 
