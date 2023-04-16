@@ -1,4 +1,4 @@
-Here is a short introduction to the Bike Sales project conducted entirely in Power BI.
+Here is a short introduction to the Data job survey project conducted entirely in Power BI.
 
 The final deliverable consists of a one-page dashboard as below:
 
