@@ -254,7 +254,7 @@ ul{
     -webkit-filter:none;
 }
 #portfolio .col-md-4{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 /* Container needed to position the overlay. Adjust the width as needed */
@@ -267,7 +267,7 @@ ul{
 /* The overlay effect - lays on top of the container and over the image */
 #portfolio .overlay {
     position:absolute;
-    bottom: 0;
+    bottom: 10;
     background: #263547(0, 0, 0);
     background: #263547(0, 0, 0, 0.5); /* Black see-through */
     color: #f1f1f1;
