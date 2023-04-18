@@ -9,7 +9,7 @@ In order to consult my work file, I invite you to go to the "Survey_analysis.pbi
 
 1/ DATA :
 
-The data used comes from [https://github.com/AlexTheAnalyst/Excel-Tutorial/blob/main/Excel%20Project%20Dataset.xlsx] This is real life information taken from a survey that is about data job owners.
+The data used comes from https://github.com/AlexTheAnalyst/Power-BI/blob/main/Power%20BI%20-%20Final%20Project.xlsx This is real life information taken from a survey that is about data job owners.
 
 2/ OBJECTIVES :
 
