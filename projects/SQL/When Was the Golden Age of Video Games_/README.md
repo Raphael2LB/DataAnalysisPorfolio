@@ -2,4 +2,4 @@ SQL Project
 
 Golden Age of Video Games
 
-Open "notebook.jpyt" to acceed the analysis
+Open "notebook.jpyt" to access the analysis
