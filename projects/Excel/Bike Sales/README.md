@@ -23,6 +23,7 @@ The first step of this project consisted of cleaning the dataset.
 -Creation of a new column "Age Bracket" which groups the ages into 3 main groups, in order to facilitate the reading of future graphs.
 
 
+
 2/ INVESTIGATION:
 
 The second step was the search for interesting information to highlight in the final dashboard.
