@@ -1,9 +1,9 @@
 BIKE SALES ANALYSIS 
 
-The purpose of this analysis is to explore new marketing avenues for a company active in the bicycle industry.
+The purpose of this analysis is to explore new lead marketing for a company active in the bicycle industry.
 To do this, we will use the "bike_buyers" dataset from https://github.com/AlexTheAnalyst/Excel-Tutorial/blob/main/Excel%20Project%20Dataset.xlsx This is information pertaining to bike buyers from all over the world .
 
-Given the type of purely demographic data at our disposal, we should be able to draw up a “persona” which will make it possible to develop a first base useful for strategic decision-making for the company concerned.
+Given the purely demographic data at our disposal, we should be able to draw up a “persona” which will make it possible to develop a first base useful for strategic decision-making for the company concerned.
 
 The entire project was carried out in Excel.
 The end result is a dynamic dashboard that can be filtered by continent using a segment.
@@ -17,15 +17,18 @@ To consult the dynamic dashboard, go to “Bike_Sales.xlsx” present in this fo
 The first step of this project consisted of cleaning the dataset.
 
 -Removal of duplicates
+
 -Transformed the "Marital status" and "gender" columns to show their full meanings rather than initials.
+
 -Creation of a new column "Age Bracket" which groups the ages into 3 main groups, in order to facilitate the reading of future graphs.
 
 
 2/ INVESTIGATION:
 
 The second step was the search for interesting information to highlight in the final dashboard.
+Every charts were created thanks to pivot tables displayed in "Pivot Table" tab in the Excel file.
 
-First, I decided to create a bar chart that shows the distribution of bicycle sales according to the level of study of the buyers. We see that the higher the level, the more people buy. However, the trend is reversed when buyers have a “graduate” level.
+First, I decided to create a bar chart that shows the distribution of bicycle sales according to the level of study of the buyers. We see that higher the level is, the more people buy. However, the trend is reversed when buyers have a “graduate” level.
 
 ![image](https://user-images.githubusercontent.com/130085381/232845796-94a0cf39-ff99-4700-8e23-6a06eb104e95.png)
 
@@ -57,9 +60,9 @@ Finally, we have highlighted the home/work distance traveled by the different in
 
 3/ CONCLUSIONS:
 
-At the end of this analysis, we can draw up a persona for a company selling bicycles: the married executive from a big city with a child.
+At the end of this analysis, we can draw up a persona for a company selling bicycles: the married executive from a big city, with a child.
 
 ![image](https://user-images.githubusercontent.com/130085381/232847789-9995f0b6-e973-4f7e-84ca-b814c4feb8a0.png)
 
 We make this conclusion following the analysis of international data, however, it is not excluded that our persona varies from one continent to another.
-It is for this reason that we provide a filter by continent, in order to allow the refinement of the investigations.
+It is for this reason that we provide a filter by continent, in order to allow the refinement of the investigations by the direction of our company.
