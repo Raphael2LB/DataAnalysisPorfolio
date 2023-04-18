@@ -1,64 +1,65 @@
-Bike sales analysis :
+BIKE SALES ANALYSIS 
 
-Cette analyse a pour vocation d’explorer de nouvelles pistes marketing pour une entreprise actrice de l’industrie du vélo. 
-Pour ce faire, nous utiliserons le dataset « bike_buyers » provenant de https://github.com/AlexTheAnalyst/Excel-Tutorial/blob/main/Excel%20Project%20Dataset.xlsx This is information pertaining to bike buyers from all over the world.
+The purpose of this analysis is to explore new marketing avenues for a company active in the bicycle industry.
+To do this, we will use the "bike_buyers" dataset from https://github.com/AlexTheAnalyst/Excel-Tutorial/blob/main/Excel%20Project%20Dataset.xlsx This is information pertaining to bike buyers from all over the world .
 
-Compte tenu du type de données purement démographique à notre disposition, nous devrions être en mesure de dressé un « persona » qui permettra d’élaborer un premier socle utile à la prise de décision stratégique pour l’entreprise intéressée.
+Given the type of purely demographic data at our disposal, we should be able to draw up a “persona” which will make it possible to develop a first base useful for strategic decision-making for the company concerned.
 
-L’ensemble du projet a été mené sur Excel.
-Le résultat final consiste en un dashboard dynamique filtrable par continent grâce à un segment. 
-Pour consulter le dashboard dynamique, rendez-vous sur « Bike_Sales.xlsx » présent dans ce dossier.
+The entire project was carried out in Excel.
+The end result is a dynamic dashboard that can be filtered by continent using a segment.
+To consult the dynamic dashboard, go to “Bike_Sales.xlsx” present in this folder.
 
 ![image](https://user-images.githubusercontent.com/130085381/232844588-38305eb6-4782-4f70-b3cd-bc9010efb951.png)
 
-1/ NETTOAYGE :
 
-La première étape de ce projet a consisté en un nettoyage du dataset.
+1/ DATA CLEANING :
 
--Suppression des doublons
--Transformation des colonnes « Marital status » et « gender » afin de montrer leurs signification complète plutôt que les initiales.
--Création d’une nouvelle colonne « Age Bracket » qui regroupe les âges en 3 groupes principaux, dans le but de faciliter la lecture des futurs graphiques.
+The first step of this project consisted of cleaning the dataset.
 
-2/ INVESTIGATIONS :
+-Removal of duplicates
+-Transformed the "Marital status" and "gender" columns to show their full meanings rather than initials.
+-Creation of a new column "Age Bracket" which groups the ages into 3 main groups, in order to facilitate the reading of future graphs.
 
-La seconde étape était la recherche d’informations intéressantes à mettre en évidence dans le dashboard final.
 
-Premièrement, j’ai décidé de créer un bar chart qui montre la répartition des ventes de vélo selon le niveau d’étude des acheteurs. On constate que plus le niveau augmente, plus les individus achètent. Néanmoins, la tendance s’inverse lorsque les acheteurs ont un niveau « graduate ».
+2/ INVESTIGATION:
+
+The second step was the search for interesting information to highlight in the final dashboard.
+
+First, I decided to create a bar chart that shows the distribution of bicycle sales according to the level of study of the buyers. We see that the higher the level, the more people buy. However, the trend is reversed when buyers have a “graduate” level.
 
 ![image](https://user-images.githubusercontent.com/130085381/232845796-94a0cf39-ff99-4700-8e23-6a06eb104e95.png)
 
-Ensuite, j’ai dressé un line chart qui montre la tendance d’achat de vélo selon les groupes d'âge suivants :
-Young : 25-30 
-Middle- age : 31-54
-Old : 55+
-On constate qu’indépendamment de la région, la plupart des acheteurs ont un âge intermédiaire.
+Then, I drew up a line chart that shows the trend of buying bikes according to the following age groups:
+Youth: 25-30
+Middle-age: 31-54
+Old: 55+
+It can be seen that regardless of region, most buyers are of middle age.
 
 ![image](https://user-images.githubusercontent.com/130085381/232845597-f7a47efc-4562-4c3d-8c99-298862483abf.png)
 
- Ensuite j’ai décidé de créer deux Pie chart afin de visualiser la répartition d’acheteurs de vélo par statut marital d’une part, et par genre d’autre part. 
-Il en ressort que sur l’ensemble des régions, il y a légèrement plus d’acheteurs seuls (52%) que d’acheteurs mariés. 
-Et il y a parité entre hommes et femmes. 50/50.
+Then I decided to create two Pie charts in order to visualize the distribution of bike buyers by marital status on the one hand, and by gender on the other.
+It shows that across all regions, there are slightly more single buyers (52%) than married buyers.
+And there is parity between men and women. 50/50.
 
 ![image](https://user-images.githubusercontent.com/130085381/232847499-b512f620-a5b0-4c53-9512-f9f105fb8e5d.png)
 ![image](https://user-images.githubusercontent.com/130085381/232847651-25239cfa-b108-4d8d-8a97-c2060193c709.png)
 
-Ensuite, le paramètre des enfants me semblait intéressant à investiguer. Nous avons donc créer un histogramme afin de visualiser les achats de vélo selon le nombre d’enfants par foyer.
-Le graphique est représenté avec une courbe de tendance indiquant qu’au niveau international la tendance est que plus il y a d’enfants au sein d’un foyer, moins il y a achat de vélo. Notons que les individus célibataires ont étés écartés afin de rendre le graphique viable.
-Nous constatons que les individus mariés achètent lorsqu’ils ont entre 0 et 1 enfants, la tendance est la baisse à mesure que le nombre d’enfants par foyer augmente.
+Then, the parameter of the children seemed to me interesting to investigate. We have therefore created a histogram in order to visualize bicycle purchases according to the number of children per household.
+The graph is represented with a trend line indicating that the international trend is that the more children there are in a household, the fewer bicycles are purchased. Note that single individuals have been discarded in order to make the graph viable.
+We find that married individuals buy when they have between 0 and 1 children, the trend is decreasing as the number of children per household increases.
  
 ![image](https://user-images.githubusercontent.com/130085381/232847729-c57273da-09ba-4e3c-ba75-94fd0fcf9692.png)
 
+Finally, we have highlighted the home/work distance traveled by the different individuals, most are between 0 and 1 Miles, the trend is constant and less thereafter.
 
-Enfin, nous avons mis en lumière la distance domicile/travail parcourrue par les différents individus, la plupart font entre 0 et 1 Miles, la tendance est constante et moindre par la suite. 
- 
 ![image](https://user-images.githubusercontent.com/130085381/232847766-20ff29de-711e-4e56-ae2a-d234a18166b5.png)
 
- 
-3/ CONCLUSIONS :
 
-A l’issue de cette analyse, nous pouvons dresser une persona pour une entreprise de vente de vélo : le/la cadre marié(e) d’une grande ville avec un enfant.
+3/ CONCLUSIONS:
+
+At the end of this analysis, we can draw up a persona for a company selling bicycles: the married executive from a big city with a child.
 
 ![image](https://user-images.githubusercontent.com/130085381/232847789-9995f0b6-e973-4f7e-84ca-b814c4feb8a0.png)
 
-Nous faisons cette conclusion suite à l’analyse des données internationales, en revanche, il n’est pas exclu que notre persona varie d’un continent à l’autre.
-C’est pour cette raison que nous mettons à disposition un filtre par continent, afin de permettre l’affinage des investigations.
+We make this conclusion following the analysis of international data, however, it is not excluded that our persona varies from one continent to another.
+It is for this reason that we provide a filter by continent, in order to allow the refinement of the investigations.
